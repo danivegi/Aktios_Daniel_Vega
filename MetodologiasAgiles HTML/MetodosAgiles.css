@@ -8,29 +8,32 @@
     font-family: 'NotoSans';
     src: url(NotoSans-VariableFont_wdth\,wght.ttf);
 }
+
 body{
     margin: 0;
 }
+
 article{
     margin-left: 16px;
     margin-top: 16px;
     text-align: justify;
     display:inline-block;
     border: 1px solid #c4ac30;
-   
-
 }
+
 article:hover{
     background-color: #dbd2a3;
-
 }
+
 article:hover h2 {
     color:white ;
     text-shadow: 2px 2px #d74f33;
 }
+
 article:hover img {
     border: 1px solid #d74f33;
 }
+
 header{
     background:#4b3e4d;
     overflow: hidden;
@@ -39,9 +42,11 @@ header{
     position: sticky; 
     top:0;
 }
+
 h1,h2{
     font-family: 'NotoSans';
 }
+
 h1{
     text-align: center;
     color: #dbd8a2;
@@ -49,6 +54,7 @@ h1{
     margin-left: auto;
     font-size: 2.5rem ;
 }
+
 p{
     margin-left: 16px;
     margin-top: 16px;
@@ -57,31 +63,33 @@ p{
     text-align: justify;
     float: left;
 }
+
 h2{
     color: #d74f33;;
     font-size: 2rem;
     margin: 16px;
     left: 18px;
 }
+
 b{
     color:#1e8c93;
 }
+
 footer{
     text-align: center;
     background-color: #4b3e4d;
     color: #dbd8a2;
 }
+
 img{
     float: right;
-    margin-right: 70px;
-
-   
-    
-    
+    margin-right: 70px; 
 }
+
 .definition{
     max-width: 600px;
 }
+
 .enfoque{
     width: 100%;
 }
